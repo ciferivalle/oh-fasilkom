@@ -1,0 +1,170 @@
+/* IMPORTING FONT */
+@font-face {
+    font-family: "Kayak Bold";
+    src:url("../fonts/Kayak Sans Bold.otf");
+}
+@font-face {
+    font-family: "Moon Bold";
+    src:url("../fonts/Moon Bold.otf");
+}
+@font-face {
+    font-family: "Moon 2 Bold";
+    src:url("../fonts/Moon2.0-Bold.otf");
+}
+@font-face {
+    font-family: "Kayak Reg";
+    src:url("../fonts/Kayak Sans Regular.otf");
+}
+@font-face {
+    font-family: "Kayak Reg Italic";
+    src:url("../fonts/Kayak Sans Regular (Italic).otf");
+}
+@font-face {
+    font-family: "Kayak Light";
+    src:url("../fonts/Kayak Sans Light.otf");
+}
+.font-moon-bold {
+	 font-family: "Moon Bold";
+}
+.font-moon-2-bold {
+    font-size: 2em;
+	  font-family: "Moon 2 Bold";
+    letter-spacing: 2px;
+}
+.font-moon-2-bold-header {
+    font-size: 1em;
+	  font-family: "Moon 2 Bold";
+    letter-spacing: 2px;
+}
+.font-kayak-bold {
+	 font-family: "Kayak Bold";
+}
+.font-kayak-reg {
+	 font-family: "Kayak Reg";
+}
+.font-kayak-light {
+	 font-family: "Kayak Light";
+}
+.font-kayak-italic {
+	 font-family: "Kayak Reg Italic";
+}
+.bg-white {
+    background: #FFFFFF;
+}
+
+.bg-brown {
+    background: #F4B558;
+}
+.bg-navy {
+    background: #1d2646;
+}
+.bg-violet {
+    background: #6633ff;
+}
+.bg-plain {
+    background: #E4E9F7);
+}
+.font-white {
+    color: #FFFFFF;
+}
+.font-grey {
+    color: #E4E9F7;
+}
+.font-brown {
+    color: #3f0d12;
+}
+.font-navy {
+    color: #1d2646;
+}
+.font-sugar-brown {
+    color: #a24936;
+}
+.font-light-brown {
+	color: #F4B558;
+}
+.font-navy {
+    color: #1d2646;
+}
+.font-violet {
+    color: #6633ff;
+}
+.font-black {
+    color: #000000;
+}
+.mini-font {
+  font-size: 1em;
+}
+.big-font {
+  font-size: 3em;
+}
+.full-vh {
+  height: 90vh;
+}
+.half-vh {
+  height: 40vh;
+}
+.top-bar ul {
+  background: #1d2646;
+}
+.ver-center {
+  padding-top: 40vh;
+}
+#regis-button {
+  background-color: #F4B558;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  color: #6633ff;
+  width: 30%;
+  height: 10%;
+}
+@media (max-width: 400px) {
+  .ver-center {
+    padding-top: 30vh;
+  }
+}
+
+.pad-down {
+    padding-bottom: 30%;
+}
+.pad-down-lit {
+    padding-bottom: 10%;
+}
+.pad-down-very-lit {
+    padding-bottom: 5%;
+}
+.pad-up {
+    padding-top: 30%;
+}
+.pad-up-lit {
+    padding-top: 10%;
+}
+.pad-up-very-lit {
+    padding-top: 5%;
+}
+
+.mar-down {
+    margin-bottom: 30%;
+}
+.mar-down-lit {
+    margin-bottom: 10%;
+}
+.mar-down-very-lit {
+    margin-bottom: 5%;
+}
+.mar-up {
+    margin-top: 30%;
+}
+.mar-up-lit {
+    margin-top: 10%;
+}
+.mar-up-very-lit {
+    margin-top: 5%;
+}

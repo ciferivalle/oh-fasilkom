@@ -1,0 +1,145 @@
+body {
+  overflow-x: hidden;
+}
+#home {
+    height: 100vh;
+    background: url('../img/oh.png') center center;
+    position: relative;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#fun-fact {
+    height: 90vh;
+    background: url('../img/desktop/fun-fact.png') center center no-repeat;
+    position: relative;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media (max-width: 400px) {
+  #fun-fact {
+    background: url('../img/mobile/fun-fact.svg') no-repeat;
+    background-size: cover;
+  }
+}
+
+#gbundar {
+	width: 70%;  border: 12px solid #6633ff;
+  margin-top: 15%;
+}
+.bor-brown {
+	width: 70%;  border: 12px solid #D5944D;
+}
+#gsneak {
+	width: 70%;  border: 12px solid #6633ff;
+}
+
+#student-life {
+  height: 90vh;
+}
+
+.icon {
+  width: 70px;
+  margin-right: 20px;
+}
+@media (max-width: 500px) {
+  #gbundar {
+    margin-top: 30%;
+  	width: 90%;
+    border: 8px solid #6633ff;
+    font-size: 1em;
+  }
+  #gsneak {
+    width: 90%;
+    border: 8px solid #6633ff;
+    font-size: 1em;
+  }
+  .bor-brown {
+  	width: 70%;  border: 8px solid #D5944D;
+  }
+  .welcome p {
+    font-size: 1em;
+  }
+  .schedule span{
+    font-size: 0.5em;
+  }
+  .icon {
+    width: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  #gbundar {
+    margin-top: 30%;
+  	width: 90%;
+    border: 8px solid #6633ff;
+    font-size: 1em;
+  }
+  .welcome p {
+    font-size: 1em;
+  }
+  .schedule span{
+    font-size: 0.8em;
+  }
+  .icon {
+    width: 25px;
+  }
+}
+
+#they-said {
+  height: 45vh;
+}
+
+#sneak-peak {
+  height: 85vh;
+  background: url('../img/desktop/sneak-peak.png') no-repeat;
+  background-size: cover;
+}
+
+#after-movie {
+  height: 85vh;
+  background: url('../img/desktop/sneak-peak.png') no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 700px) {
+  #gbundar {
+    margin-top: 30%;
+  	width: 90%;
+    border: 8px solid #6633ff;
+    font-size: 1em;
+  }
+  .welcome p {
+    font-size: 1em;
+  }
+  .schedule span{
+    font-size: 0.8em;
+  }
+  .icon {
+    width: 25px;
+  }
+  #sneak-peak {
+    height: 45vh;
+    background: url('../img/desktop/sneak-peak.png') no-repeat;
+    background-size: cover;
+  }
+
+  #after-movie {
+    height: 45vh;
+    background: url('../img/desktop/sneak-peak.png') no-repeat;
+    background-size: cover;
+  }
+}
+#register{
+  height: 50vh;
+  background-image: url('../img/desktop/register.svg');
+}
+#regis-button {
+  width: 70%;
+  font-size: 1.5em;
+}
