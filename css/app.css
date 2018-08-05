@@ -29,7 +29,7 @@ body {
 }
 
 #gbundar {
-	width: 70%;  border: 12px solid #6633ff;
+	width: 100%;  border: 12px solid #6633ff;
   margin-top: 15%;
 }
 .bor-brown {
@@ -168,4 +168,11 @@ body {
   border-radius: 30px;
   color: #6633ff;
   width: 60%;
+}
+#footer {
+  height: 10vh;
+}
+.sosmed-ico {
+  width: 2.5em;
+  margin-right: 2%;
 }

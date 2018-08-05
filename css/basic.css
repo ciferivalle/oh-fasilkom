@@ -51,7 +51,9 @@
 .bg-white {
     background: #FFFFFF;
 }
-
+.bg-ligt-violet {
+    background: #E4E9F7;
+}
 .bg-brown {
     background: #F4B558;
 }
@@ -165,9 +167,6 @@
 .pad-left-very-lit {
     padding-left: 5%;
 }
-
-
-
 .mar-down {
     margin-bottom: 30%;
 }
@@ -204,6 +203,12 @@
 .mar-left-very-lit {
     margin-left: 5%;
 }
+.mar-left-very-very-lit {
+    margin-left: 3%;
+}
 .full-h {
   height: 100%;
+}
+.nomar {
+  margin-bottom: 0;
 }
