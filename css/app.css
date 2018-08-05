@@ -136,10 +136,36 @@ body {
   }
 }
 #register{
-  height: 50vh;
+  height: 40vh;
   background-image: url('../img/desktop/register.svg');
+}
+#register .grid-container {
+  margin-top: 5%;
+}
+
+@media (max-width:400px) {
+  #register{
+    height: 40vh;
+    background-image: url('../img/desktop/register.svg');
+  }
+  #register .grid-container {
+    margin-top:20%;
+  }
 }
 #regis-button {
   width: 70%;
   font-size: 1.5em;
+}
+
+#regis-button {
+  background-color: #F4B558;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  color: #6633ff;
+  width: 60%;
 }

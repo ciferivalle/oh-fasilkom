@@ -94,9 +94,19 @@
 .mini-font {
   font-size: 1em;
 }
+.mid-lit-font {
+  font-size: 1.5em;
+}
+.mid-font {
+  font-size: 2em;
+}
 .big-font {
   font-size: 3em;
 }
+.count-font {
+  font-size: 4em;
+}
+
 .full-vh {
   height: 90vh;
 }
@@ -108,22 +118,6 @@
 }
 .ver-center {
   padding-top: 40vh;
-}
-#regis-button {
-  background-color: #F4B558;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 30px;
-  color: #6633ff;
-  width: 30%;
-  height: 10%;
 }
 @media (max-width: 400px) {
   .ver-center {
@@ -140,6 +134,10 @@
 .pad-down-very-lit {
     padding-bottom: 5%;
 }
+.pad-down-very-very-lit {
+    padding-bottom: 3%;
+}
+
 .pad-up {
     padding-top: 30%;
 }
@@ -149,6 +147,26 @@
 .pad-up-very-lit {
     padding-top: 5%;
 }
+.pad-right {
+    padding-right: 30%;
+}
+.pad-right-lit {
+    padding-right: 10%;
+}
+.pad-right-very-lit {
+    padding-right: 5%;
+}
+.pad-left {
+    padding-left: 30%;
+}
+.pad-left-lit {
+    padding-left: 10%;
+}
+.pad-left-very-lit {
+    padding-left: 5%;
+}
+
+
 
 .mar-down {
     margin-bottom: 30%;
@@ -167,4 +185,25 @@
 }
 .mar-up-very-lit {
     margin-top: 5%;
+}
+.mar-right {
+    margin-right: 30%;
+}
+.mar-right-lit {
+    margin-right: 10%;
+}
+.mar-right-very-lit {
+    margin-right: 5%;
+}
+.mar-left {
+    margin-left: 30%;
+}
+.mar-left-lit {
+    margin-left: 10%;
+}
+.mar-left-very-lit {
+    margin-left: 5%;
+}
+.full-h {
+  height: 100%;
 }
