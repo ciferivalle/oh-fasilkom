@@ -262,6 +262,10 @@
 .navbar-height {
   height: 10vh;
 }
+.top-bar {
+  padding: 10px;
+  box-shadow: 0px 100px;
+}
 /* .top-bar .toggle-topbar.menu-icon a {
     height: 34px;
     line-height: 33px;
