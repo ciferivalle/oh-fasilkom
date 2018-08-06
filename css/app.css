@@ -51,19 +51,33 @@ body {
   }
 }
 #schedule {
-  height: 100vh;
+  height: 70vh;
 }
-@media (min-width:400px and max-width:700px) {
+@media (max-width:400px) {
   #schedule {
-    height: 70vh;
-  }
-  .mar-up-mid {
-    margin-top: 15%;
+    height: 100vh;
   }
 }
 .icon {
-  width: 70px;
+  width: 55px;
   margin-right: 20px;
+}
+@media (max-width: 700px) {
+  #gbundar {
+    margin-top: 30%;
+  	width: 90%;
+    border: 8px solid #6633ff;
+    font-size: 1em;
+  }
+  .welcome p {
+    font-size: 1em;
+  }
+  .schedule span{
+    font-size: 0.8em;
+  }
+  .icon {
+    width: 50px;
+  }
 }
 @media (max-width: 500px) {
   #gbundar {
@@ -87,25 +101,7 @@ body {
     font-size: 0.5em;
   }
   .icon {
-    width: 30px;
-  }
-}
-
-@media (max-width: 700px) {
-  #gbundar {
-    margin-top: 30%;
-  	width: 90%;
-    border: 8px solid #6633ff;
-    font-size: 1em;
-  }
-  .welcome p {
-    font-size: 1em;
-  }
-  .schedule span{
-    font-size: 0.8em;
-  }
-  .icon {
-    width: 25px;
+    width: 45px;
   }
 }
 
@@ -141,7 +137,7 @@ body {
 }
 
 #after-movie {
-  height: 85vh;
+  height: 100vh;
   background: url('../img/desktop/sneak-peak.png') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -198,7 +194,7 @@ body {
 @media (max-width:400px) {
   #register{
     height: 60vh;
-    background-image: url('../img/mobile/register2.svg');
+    background-image: url('../img/mobile/register.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
