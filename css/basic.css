@@ -212,3 +212,38 @@
 .nomar {
   margin-bottom: 0;
 }
+.border-embed {
+	border: 12px solid #D5944D;
+}
+@media (max-width:500px) {
+  .border-embed {
+    border: 6px solid #D5944D;
+  }
+}
+
+@media (max-width:700px) {
+  .border-embed {
+    border: 8px solid #D5944D;
+  }
+}
+
+@media (max-width:400px){
+  .mar-up-mob {
+    margin-top: 5%;
+  }
+}
+
+.pad-up {
+  padding-top: 20%;
+}
+.pad-down {
+
+}
+@@media (max-width:500px) {
+  .pad-up{
+    padding-top: 10%;
+  }
+  .pad-down{
+    padding-bottom: 5%;
+  }
+}

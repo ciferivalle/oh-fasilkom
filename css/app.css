@@ -12,18 +12,21 @@ body {
     background-size: cover;
 }
 #fun-fact {
-    height: 90vh;
+    height: 100vh;
     background: url('../img/desktop/fun-fact.png') center center no-repeat;
-    position: relative;
-    min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #fun-fact {
+    height: 100vh;
     background: url('../img/mobile/fun-fact.svg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
@@ -40,9 +43,24 @@ body {
 }
 
 #student-life {
-  height: 90vh;
+  height: 100vh;
 }
-
+@media (max-width:500px) {
+  #student-life {
+    height: 70vh;
+  }
+}
+#schedule {
+  height: 100vh;
+}
+@media (min-width:400px and max-width:700px) {
+  #schedule {
+    height: 70vh;
+  }
+  .mar-up-mid {
+    margin-top: 15%;
+  }
+}
 .icon {
   width: 70px;
   margin-right: 20px;
@@ -94,16 +112,40 @@ body {
 #they-said {
   height: 45vh;
 }
+#launch-soon {
+  background-image: url('../img/desktop/launching-soon.svg');
+  height: 45vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+}
+@media (max-width: 750px) {
+  #launch-soon {
+    background-image: url('../img/mobile/launching-soon.svg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45vh;
+  }
+}
 #sneak-peak {
   height: 85vh;
   background: url('../img/desktop/sneak-peak.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
 #after-movie {
   height: 85vh;
   background: url('../img/desktop/sneak-peak.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -124,20 +166,30 @@ body {
     width: 25px;
   }
   #sneak-peak {
-    height: 45vh;
+    height: 60vh;
     background: url('../img/desktop/sneak-peak.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 
   #after-movie {
-    height: 45vh;
+    height: 70vh;
     background: url('../img/desktop/sneak-peak.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
 #register{
   height: 40vh;
   background-image: url('../img/desktop/register.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #register .grid-container {
   margin-top: 5%;
@@ -145,8 +197,12 @@ body {
 
 @media (max-width:400px) {
   #register{
-    height: 40vh;
-    background-image: url('../img/desktop/register.svg');
+    height: 60vh;
+    background-image: url('../img/mobile/register2.svg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   #register .grid-container {
     margin-top:20%;
@@ -175,4 +231,13 @@ body {
 .sosmed-ico {
   width: 2.5em;
   margin-right: 2%;
+}
+@media (max-width:500px) {
+  .sosmed-ico {
+    width: 2em;
+    margin-right: 2%;
+  }
+  .footer-font {
+    font-size: 0.8em;
+  }
 }
