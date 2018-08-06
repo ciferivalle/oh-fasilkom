@@ -14,31 +14,32 @@
   <body>
 
 <!-- NAVBAR   -->
-<!-- <div class="contain-to-grid sticky">
- <div class="title-bar bg-ligt-violet" data-responsive-toggle="example-menu" data-hide-for="medium">
-   <button class="menu-icon" type="button" data-toggle="example-menu"></button>
- </div>
+<div class="contain-to-grid sticky">
+     <div class="title-bar-right bg-light-violet pad-up-very-lit pad-down-very-lit pad-right-very-lit" data-responsive-toggle="example-menu" data-hide-for="medium">
+       <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+     </div>
+</div>
  <div class="top-bar bg-light-violet" id="example-menu">
    <div class="top-bar-right bg-light-violet" data-topbar role="navigation" data-options="sticky_on: large">
-     <ul class="menu small-vertical">
-      <li><a href="#home" class="font-black font-moon-2-bold-header">Home</a></li>
-      <li><a href="#about" class="font-black font-moon-2-bold-header">About</a></li>
-      <li><a href="#testimonials" class="font-black font-moon-2-bold-header">Testimonials</a></li>
-      <li><a href="#sneak-peak" class="font-black font-moon-2-bold-header">Sneak Peak</a></li>
-      <li><a href="#register" class="font-black font-moon-2-bold-header">Register</a></li>
+     <ul class="menu small-vertical bg-light-violet">
+      <li class="bg-light-violet"><a href="#home" class="font-black font-moon-2-bold-header">Home</a></li>
+      <li class="bg-light-violet"><a href="#about" class="font-black font-moon-2-bold-header">About</a></li>
+      <li class="bg-light-violet"><a href="#testimonials" class="font-black font-moon-2-bold-header">Testimonials</a></li>
+      <li class="bg-light-violet"><a href="#sneak-peak" class="font-black font-moon-2-bold-header">Sneak Peak</a></li>
+      <li class="bg-light-violet"><a href="#register" class="font-black font-moon-2-bold-header">Register</a></li>
      </ul>
    </div>
  </div>
-</div> -->
-<div class="navbar top-bar">
-  <ul class="menu top-bar-right">
-        <li><a class="font-moon-2-header font-black" href="#home">Home</a></li>
-        <li><a class="font-moon-2-header font-black" href="#about">About</a></li>
-        <li><a class="font-moon-2-header font-black" href="#testimonials">Testimonials</a></li>
-        <li><a class="font-moon-2-header font-black" href="#sneak-peak">Sneak Peak</a></li>
-        <li><a class="font-moon-2-header font-black" href="#register">Register</a></li>
-  </ul>
 </div>
+<!-- <div class="navbar top-bar bg-light-violet">
+  <ul class="menu top-bar-right bg-light-violet">
+        <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#home">Home</a></li>
+        <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#about">About</a></li>
+        <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#testimonials">Testimonials</a></li>
+        <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#sneak-peak">Sneak Peak</a></li>
+        <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#register">Register</a></li>
+  </ul>
+</div> -->
 <!-- END OF NAVBAR -->
 
 <!-- HOME -->
@@ -397,5 +398,21 @@
       },
     });
   </script>
+  <script>
+  jQuery(document).ready(function($) {
+    var alterClass = function() {
+      var ww = document.body.clientWidth;
+      if (ww < 640) {
+        $('.menu').addClass('vertical');
+      } else if (ww >= 640) {
+        $('.menu').removeClass('vertical');
+      };
+    };
+    $(window).resize(function(){
+      alterClass();
+    });
+    //Fire it when the page first loads:
+    alterClass();
+  });  </script>
 </body>
 </html>
