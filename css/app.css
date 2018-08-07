@@ -217,14 +217,16 @@ body {
   cursor: pointer;
   border-radius: 30px;
   color: #6633ff;
-  width: 60%;
+  width: 50%;
   font-size: 1.5em;
   border: 2px;
+  border: 2px solid #F4B558;
 }
 #regis-button:hover {
   background-color: #E4E9F7;
   color: #F4B558;
   border-color: #6633ff;
+  border: 2px solid #6633ff;
 }
 #footer {
   height: 10vh;
