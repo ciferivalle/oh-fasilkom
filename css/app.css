@@ -1,6 +1,11 @@
 body {
   overflow-x: hidden;
 }
+@@media (max-width:400px) {
+  h1 {
+    font-size: 2em;
+  }
+}
 #home {
     height: 100vh;
     background: url('../img/oh.png') center center;
@@ -106,7 +111,7 @@ body {
 }
 
 #they-said {
-  height: 45vh;
+  height: 60vh;
 }
 #launch-soon {
   background-image: url('../img/desktop/launching-soon.svg');
@@ -128,7 +133,7 @@ body {
   }
 }
 #sneak-peak {
-  height: 85vh;
+  height: 100vh;
   background: url('../img/desktop/sneak-peak.png') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -171,7 +176,7 @@ body {
   }
 
   #after-movie {
-    height: 70vh;
+    height: 60vh;
     background: url('../img/desktop/sneak-peak.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -180,7 +185,7 @@ body {
   }
 }
 #register{
-  height: 40vh;
+  height: 55vh;
   background-image: url('../img/desktop/register.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -205,14 +210,7 @@ body {
   }
 }
 #regis-button {
-  width: 70%;
-  font-size: 1.5em;
-}
-
-#regis-button {
   background-color: #F4B558;
-  border: none;
-  color: white;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -220,6 +218,13 @@ body {
   border-radius: 30px;
   color: #6633ff;
   width: 60%;
+  font-size: 1.5em;
+  border: 2px;
+}
+#regis-button:hover {
+  background-color: #E4E9F7;
+  color: #F4B558;
+  border-color: #6633ff;
 }
 #footer {
   height: 10vh;
