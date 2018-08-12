@@ -1,13 +1,13 @@
 body {
   overflow-x: hidden;
 }
-@@media (max-width:400px) {
+@media (max-width:400px) {
   h1 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 #home {
-    min-height: 100vh;
+    height: 100vh;
     background: url('../img/oh.png') center center;
     position: relative;
     min-height: 100%;
@@ -17,7 +17,6 @@ body {
     background-size: cover;
 }
 #fun-fact {
-    /* min-height: 100vh; */
     background: url('../img/desktop/fun-fact.png') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,7 +25,6 @@ body {
 }
 @media (max-width: 500px) {
   #fun-fact {
-    /* min-height: 100vh; */
     background: url('../img/mobile/fun-fact.svg') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -35,7 +33,6 @@ body {
     background-size: cover;
   }
 }
-
 #gbundar {
 	width: 100%;  border: 12px solid #6633ff;
   margin-top: 15%;
@@ -45,18 +42,6 @@ body {
 }
 #gsneak {
 	width: 70%;  border: 12px solid #6633ff;
-}
-
-/* #student-life {
-  min-height: 100vh;
-} */
-@media (max-width:500px) {
-  #student-life {
-    min-height: 70vh;
-  }
-}
-#schedule {
-  /* min-height: 70vh; */
 }
 @media (max-width:400px) {
   #schedule {
