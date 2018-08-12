@@ -7,7 +7,7 @@ body {
   }
 }
 #home {
-    height: 100vh;
+    min-height: 100vh;
     background: url('../img/oh.png') center center;
     position: relative;
     min-height: 100%;
@@ -17,7 +17,7 @@ body {
     background-size: cover;
 }
 #fun-fact {
-    height: 100vh;
+    /* min-height: 100vh; */
     background: url('../img/desktop/fun-fact.png') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,7 +26,7 @@ body {
 }
 @media (max-width: 500px) {
   #fun-fact {
-    height: 100vh;
+    /* min-height: 100vh; */
     background: url('../img/mobile/fun-fact.svg') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -47,20 +47,20 @@ body {
 	width: 70%;  border: 12px solid #6633ff;
 }
 
-#student-life {
-  height: 100vh;
-}
+/* #student-life {
+  min-height: 100vh;
+} */
 @media (max-width:500px) {
   #student-life {
-    height: 70vh;
+    min-height: 70vh;
   }
 }
 #schedule {
-  height: 70vh;
+  /* min-height: 70vh; */
 }
 @media (max-width:400px) {
   #schedule {
-    height: 100vh;
+    /* min-height: 100vh; */
   }
 }
 .icon {
@@ -111,11 +111,11 @@ body {
 }
 
 #they-said {
-  height: 60vh;
+  /* min-height: 60vh; */
 }
 #launch-soon {
   background-image: url('../img/desktop/launching-soon.svg');
-  height: 45vh;
+  min-height: 45vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,11 +129,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 45vh;
+    min-height: 45vh;
   }
 }
 #sneak-peak {
-  height: 100vh;
+  /* min-height: 100vh; */
   background: url('../img/desktop/sneak-peak.png') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -142,7 +142,6 @@ body {
 }
 
 #after-movie {
-  height: 100vh;
   background: url('../img/desktop/sneak-peak.png') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -167,7 +166,7 @@ body {
     width: 25px;
   }
   #sneak-peak {
-    height: 60vh;
+    min-height: 60vh;
     background: url('../img/desktop/sneak-peak.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -176,7 +175,7 @@ body {
   }
 
   #after-movie {
-    height: 60vh;
+    min-height: 60vh;
     background: url('../img/desktop/sneak-peak.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -184,8 +183,8 @@ body {
     background-size: cover;
   }
 }
-#register{
-  height: 55vh;
+#register > div{
+  min-height: 60vh;
   background-image: url('../img/desktop/register.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -198,7 +197,6 @@ body {
 
 @media (max-width:400px) {
   #register{
-    height: 60vh;
     background-image: url('../img/mobile/register.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -228,8 +226,8 @@ body {
   border-color: #6633ff;
   border: 2px solid #6633ff;
 }
-#footer {
-  height: 10vh;
+#footer > div {
+  min-height: 10vh;
 }
 .sosmed-ico {
   width: 2.5em;

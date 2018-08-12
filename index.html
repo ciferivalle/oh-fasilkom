@@ -14,23 +14,97 @@
   <body>
 
 <!-- NAVBAR   -->
-<div class="contain-to-grid sticky">
-     <div class="title-bar-right bg-light-violet pad-up-very-lit pad-down-very-lit pad-right-very-lit" data-responsive-toggle="example-menu" data-hide-for="medium">
-       <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+<div class="top-bar-container" data-sticky-container>
+<div class="sticky is-stuck" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+<div class="nav top-bar-container bg-light-violet" data-sticky-container>
+  <div class="contain-to-grid sticky sticky-topbar bg-light-violet ">
+       <div class="title-bar-right bg-light-violet" data-responsive-toggle="example-menu" data-hide-for="medium" style="padding:15px 15px 15px 0;">
+         <button class="menu-icon " type="button" data-toggle="example-menu"></button>
+       </div>
+  </div>
+   <div class="top-bar bg-light-violet" id="example-menu">
+     <div class="top-bar-right bg-light-violet" data-topbar role="navigation" data-options="sticky_on: large">
+       <ul class="menu small-vertical bg-light-violet">
+        <li class="bg-light-violet"><a href="#home" class="font-black font-moon-2-bold-header">Home</a></li>
+        <li class="bg-light-violet"><a href="#about" class="font-black font-moon-2-bold-header">About</a></li>
+        <li class="bg-light-violet"><a href="#testimonials" class="font-black font-moon-2-bold-header">Testimonials</a></li>
+        <li class="bg-light-violet"><a href="#sneak-peak" class="font-black font-moon-2-bold-header">Sneak Peak</a></li>
+        <li class="bg-light-violet"><a href="#register" class="font-black font-moon-2-bold-header">Register</a></li>
+       </ul>
      </div>
-</div>
- <div class="top-bar bg-light-violet" id="example-menu">
-   <div class="top-bar-right bg-light-violet" data-topbar role="navigation" data-options="sticky_on: large">
-     <ul class="menu small-vertical bg-light-violet">
-      <li class="bg-light-violet"><a href="#home" class="font-black font-moon-2-bold-header">Home</a></li>
-      <li class="bg-light-violet"><a href="#about" class="font-black font-moon-2-bold-header">About</a></li>
-      <li class="bg-light-violet"><a href="#testimonials" class="font-black font-moon-2-bold-header">Testimonials</a></li>
-      <li class="bg-light-violet"><a href="#sneak-peak" class="font-black font-moon-2-bold-header">Sneak Peak</a></li>
-      <li class="bg-light-violet"><a href="#register" class="font-black font-moon-2-bold-header">Register</a></li>
-     </ul>
    </div>
- </div>
+  </div>
 </div>
+</div>
+</div>
+
+<!-- <div data-sticky-container>
+  <div class="sticky" data-sticky data-margin-top="0">
+      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+          <div class="title-bar-title">Menu</div>
+      </div>
+
+      <div class="top-bar" id="example-menu">
+          <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                  <li class="menu-text">Site Title</li>
+                  <li>
+                      <a href="#">One</a>
+                      <ul class="menu vertical">
+                          <li><a href="#">One</a></li>
+                          <li><a href="#">Two</a></li>
+                          <li><a href="#">Three</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+              </ul>
+          </div>
+          <div class="top-bar-right">
+              <ul class="menu">
+                  <li><input type="search" placeholder="Search"></li>
+                  <li><button type="button" class="button">Search</button></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div> -->
+<!-- Add a Sticky Menu -->
+<!-- <div class="top-bar-container" data-sticky-container>
+    <div class="sticky" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+      <div class="top-bar">
+        <div class="row column">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">Site Title</li>
+              <li class="has-submenu">
+                <a href="#">One</a>
+                <ul class="submenu menu vertical" data-submenu>
+                  <li><a href="#">One</a></li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li>
+                <input type="search" placeholder="Search">
+              </li>
+              <li>
+                <button type="button" class="button">Search</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
 <!-- <div class="navbar top-bar bg-light-violet">
   <ul class="menu top-bar-right bg-light-violet">
         <li class="bg-light-violet"><a class="font-moon-2-header font-black" href="#home">Home</a></li>
@@ -48,8 +122,8 @@
 
 <!-- FUN-FACT -->
 <div id="fun-fact">
-  <div class="row full-vh ">
-    <div class="ver-center columns small-offset-5 small-7 medium-offset-6 medium-5 end" style="margin-right:70px;">
+  <div class="grid-x align-right align-middle f-h">
+    <div class="cell small-6 pad-right-lit">
       <h1 class="font-violet font-moon-2-bold">FUN FACT!</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt soluta ea non perferendis culpa vero rem error modi aperiam.</p>
     </div>
@@ -58,18 +132,16 @@
 <!-- END OF FUN-FACT -->
 
 <!-- WELCOME TO FASILKOM UI -->
-<div class="welcome bg-brown">
-  <div class="grid-container">
-    <div class="grid-x align-center" >
-      <div class="medium-6 small-8 cell text-center">
-        <img id="gbundar" src="../img/desktop/fasilkom.svg" alt="">
-        <h1 class="font-moon-2-bold font-brown">WELCOME TO FASILKOM UI</h1>
-        <p class="font-kayak-reg">Faculty of Computer Science Universitas Indonesia is one
-          of the best Faculty in Indonesia that has a vision to maintain its position as
-          an internationally acclaimed hub for research and education in the field of CS and
-          IT in Indonesia. FASILKOM UI also strives to maintain its
-          health and integrity as an organization, as well as to continue working</p>
-      </div>
+<div id="welcome" class="bg-brown">
+  <div class="grid-x align-center align-middle f-h" >
+    <div class="medium-6 small-8 cell text-center">
+      <img id="gbundar" src="../img/desktop/fasilkom.svg" alt="">
+      <h1 class="font-moon-2-bold font-brown">WELCOME TO FASILKOM UI</h1>
+      <p class="font-kayak-reg">Faculty of Computer Science Universitas Indonesia is one
+        of the best Faculty in Indonesia that has a vision to maintain its position as
+        an internationally acclaimed hub for research and education in the field of CS and
+        IT in Indonesia. FASILKOM UI also strives to maintain its
+        health and integrity as an organization, as well as to continue working</p>
     </div>
   </div>
 </div>
@@ -77,17 +149,12 @@
 
 <!-- WELCOME TO FASILKOM UI -->
 <div  id="student-life" class="bg-brown pad-up-very-lit">
-  <div class="grid-container">
-    <div class="grid-y align-center">
-      <div class="grid-x align-center">
-        <div class="medium-8 small-10 cell text-center">
-          <div class="grid-y align-center">
-            <h1 class="font-moon-2-bold font-brown nomar">STUDENT LIFE</h1>
-            <div class="responsive-embed widescreen border-embed">
-              <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
+  <div class="grid-x align-center align-middle f-h">
+    <div class="medium-6 small-8 cell text-center">
+      <h1 class="font-moon-2-bold font-brown nomar">STUDENT LIFE</h1>
+      <div class="responsive-embed widescreen border-embed">
+        <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
+        <img id="gbundar" src="../img/desktop/fasilkom.svg" alt="">
       </div>
     </div>
   </div>
@@ -95,94 +162,47 @@
 <!-- END OF WELCOME TO FASILKOM UI -->
 
 <!-- WELCOME TO FASILKOM UI -->
-<div id="schedule" class="schedule bg-navy">
-  <!-- <div class="grid-container">
-    <div class="grid-x pad-down-lit" style="justify-content:center;">
-      <div class="medium-8 small-8 cell text-center pad-up-lit">
-        <h1 class="font-moon-2-bold font-light-brown">OPEN HOUSE <br> FASILKOM UI 2018</h1>
-        <h3 class="font-kayak-reg font-sugar-brown"><em>#LetsExploreIT</em></h3>
-      </div>
-    </div>
-    <div class="grid-x align-center">
-      <div class="small-8 medium-8 large-5 cell end">
-        <div class="flex-container align-middle pad-down-very-lit">
-          <div class="">
-            <img class="icon" src="img/desktop/calendar.svg" alt="">
-          </div>
-          <div class="">
-            <span class="font-moon-bold font-white schedule">Saturday, 3 November 2018</span>
-          </div>
-        </div>
-        <div class="flex-container align-middle pad-down-very-lit">
-          <div class="">
-            <img class="icon" src="img/desktop/clock.svg" alt="">
-          </div>
-          <div class="">
-            <span class="font-moon-bold font-white schedule">08.30 - SELESAI</span>
-          </div>
-        </div>
-        <div class="flex-container align-middle pad-down-very-lit">
-          <div class="">
-            <img class="icon" src="img/desktop/location.svg" alt="">
-          </div>
-          <div class="">
-            <span class="font-moon-bold font-white scedule">FAKULTAS ILMU KOMPUTER UI, JAWA BARAT</span>
-          </div>
-        </div>
-      </div>
-      <div class="small-8 medium-8 large-5 cell end">
-        <div class="grid-y align-center full-h mar-up-mob mar-up-med">
-          <p class="font-white font-kayak-reg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit doloremque voluptatibus id nam placeat libero vitae repellat enim. Facilis, cumque.</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="grid-y align-center full-h">
-    <div class="cell shrink">
-      <div class="grid-x align-center">
+<div id="schedule" class="bg-navy">
+  <div class="grid-x align-center align-middle m-h">
+    <div class="cell small-10 medium-8">
+      <div class="grid-x align-center align-middle">
         <div class="cell shrink text-center">
           <h1 class="font-moon-2-bold font-light-brown">OPEN HOUSE <br> FASILKOM UI 2018</h1>
           <h3 class="font-kayak-reg font-sugar-brown"><em>#LetsExploreIT</em></h3>
         </div>
       </div>
-      <div class="grid-x align-center">
-        <div class="small-8 medium-8 large-5 cell end">
-        <!-- 1   -->
-          <div class="flex-container align-middle pad-down-very-lit">
-            <div class="">
+    </div>
+    <div class="cell small-10 large-5">
+      <div class="grid-x align-left align-middle">
+         <div class="cell shrink">
               <img class="icon" src="img/desktop/calendar.svg" alt="">
-            </div>
-            <div class="">
+         </div>
+         <div class="cell shrink">
               <span class="font-moon-bold font-white schedule">Saturday, 3 November 2018</span>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="flex-container align-middle pad-down-very-lit">
-            <div class="">
+         </div>
+      </div>
+      <br>
+      <div class="grid-x align-left align-middle">
+         <div class="cell shrink">
               <img class="icon" src="img/desktop/clock.svg" alt="">
-            </div>
-            <div class="">
-              <span class="font-moon-bold font-white schedule">08.30 - SELESAI</span>
-            </div>
-          </div>
-          <!-- end 2 -->
-
-          <!-- 3 -->
-          <div class="flex-container align-middle pad-down-very-lit">
-            <div class="">
+         </div>
+         <div class="cell shrink">
+              <span class="font-moon-bold font-white">08.30 - SELESAI</span>
+         </div>
+      </div>
+      <br>
+      <div class="grid-x align-left align-middle">
+         <div class="cell shrink">
               <img class="icon" src="img/desktop/location.svg" alt="">
-            </div>
-            <div class="">
-              <span class="font-moon-bold font-white scedule">FAKULTAS ILMU KOMPUTER UI, JAWA BARAT</span>
-            </div>
-          </div>
-          <!-- end 3 -->
-        </div>
-        <div class="small-8 medium-8 large-5 cell end">
-          <div class="grid-y align-center full-h mar-up-mob mar-up-med">
-            <p class="font-white font-kayak-reg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit doloremque voluptatibus id nam placeat libero vitae repellat enim. Facilis, cumque.</p>
-          </div>
-        </div>
+         </div>
+         <div class="cell shrink">
+              <span class="font-moon-bold font-white">FAKULTAS ILMU KOMPUTER UI, JAWA BARAT</span>
+         </div>
+      </div>
+    </div>
+    <div class="cell small-10 large-5">
+      <div class="grid-x align-left align-middle">
+        <p class="font-white font-kayak-reg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit doloremque voluptatibus id nam placeat libero vitae repellat enim. Facilis, cumque.</p>
       </div>
     </div>
   </div>
@@ -194,69 +214,35 @@
 <!-- END OF GOOGLE -->
 
 <!-- THEY SAID -->
-
-<div id="they-said" class="they-said bg-violet">
-  <!-- <div class="grid-container">
-    <div class="grid-x pad-down-very-lit" style="justify-content:center;">
-      <div class="medium-8 small-8 cell text-center pad-up-lit">
-        <h1 class="font-moon-2-bold font-white">WHAT THEY SAID</h1>
-      </div>
-    </div>
-  </div>
-  <div class="grid-x align-center">
-    <div class="small-6 text-center cell carousel-testi">
-      <div class="swiper-container">
-        <div class="swiper-wrapper pad-down-lit">
-          <div class="font-white font-kayak-reg swiper-slide">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
-          </div>
-          <div class="font-white font-kayak-reg swiper-slide">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea recusandae explicabo odio laboriosam cumque asperiores ullam, eaque quo magnam similique voluptatum, perferendis magni quibusdam dolor, ipsam dignissimos. Possimus, facilis, dolore.
-          </div>
-          <div class="font-white font-kayak-reg swiper-slide">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus commodi laboriosam numquam repudiandae quia! Asperiores amet, fugit, molestiae qui, perferendis magnam, voluptates quae sunt at tempore modi quia eos harum!
-          </div>
+<div id="they-said" class="bg-violet">
+  <div class="grid-x align-center align-middle h-h">
+    <div class="cell small-10 medium-8 text-center">
+      <h1 class="font-moon-2-bold font-white">WHAT THEY SAID</h1>
+      <div class="orbit" role="region" aria-label="They Said" data-orbit>
+        <div class="orbit-wrapper">
+          <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure text-center font-white font-kayak-reg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure text-center font-white font-kayak-reg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure text-center font-white font-kayak-reg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
+              </figure>
+            </li>
+          </ul>
         </div>
-        <br>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div> -->
-
-  <div class="grid-y align-center full-h">
-    <div class="cell shrink">
-      <div class="grid-x align-center">
-        <div class="cell small-10 medium-8 text-center">
-          <h1 class="font-moon-2-bold font-white">WHAT THEY SAID</h1>
-        </div>
-        <div class="cell small-10 medium-6">
-          <div class="orbit" role="region" aria-label="They Said" data-orbit>
-            <div class="orbit-wrapper">
-              <ul class="orbit-container">
-                <li class="is-active orbit-slide">
-                  <figure class="orbit-figure text-center font-white font-kayak-reg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
-                  </figure>
-                </li>
-                <li class="orbit-slide">
-                  <figure class="orbit-figure text-center font-white font-kayak-reg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
-                  </figure>
-                </li>
-                <li class="orbit-slide">
-                  <figure class="orbit-figure text-center font-white font-kayak-reg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus temporibus aperiam est tempora ad doloremque inventore aspernatur illo, eligendi, quisquam itaque exercitationem, voluptatum debitis consequatur dignissimos recusandae hic odit.
-                  </figure>
-                </li>
-              </ul>
-            </div>
-            <nav class="orbit-bullets">
-              <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-              <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-              <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-            </nav>
-          </div>
-        </div>
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+        </nav>
       </div>
     </div>
   </div>
@@ -265,46 +251,57 @@
 
 <!-- LAUNCH -->
 <div id="launch-soon" class="launch-soon">
-  <div class="grid-container full-h">
-    <div class="grid-y full-h align-center">
-      <div class="grid-x align-right">
-        <div class="cell shrink">
-          <h1 class="font-black font-moon-2-bold">LAUNCHING SOON!</h1>
-          <div class="grid-x align-center">
-            <div class="cell bg-violet text-center shrink" style="height:120px; width:70px;">
-              <div class="grid-y align-center full-h">
-    						<h2 class="font-light-brown font-kayak-reg count-font" id="kiri">
-              </div>
-            </div>
-            <div class="cell bg-brown text-center shrink" style="height:120px; width:70px;">
-              <div class="grid-y align-center full-h">
-    						<h2 class="font-violet font-kayak-reg count-font" id="kanan">
-              </div>
-            </div>
-            <div class="cell text-center shrink mar-left-very-lit">
-              <div class="grid-y align-center full-h">
-                <h2 class="font-kayak-reg mid-lit-font">Day(s) Left!</h2>
-              </div>
-            </div>
+  <div class="grid-x h-h align-right align-middle mar-right-very-lit">
+    <div class="cell shrink">
+      <h1 class="font-black font-moon-2-bold">LAUNCHING SOON!</h1>
+      <div class="grid-x align-center align-middle">
+        <div class="cell bg-violet text-center shrink pad-very-lit" >
+          <div class="grid-y align-center full-h">
+						<h2 class="font-light-brown font-kayak-reg count-font" id="kiri">
+          </div>
+        </div>
+        <div class="cell bg-brown text-center shrink pad-very-lit">
+          <div class="grid-y align-center full-h">
+						<h2 class="font-violet font-kayak-reg count-font" id="kanan">
+          </div>
+        </div>
+        <div class="cell text-center shrink mar-left-very-lit">
+          <div class="grid-y align-center full-h">
+            <h2 class="font-kayak-reg mid-lit-font">Day(s) Left!</h2>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- <div class="grid-x align-middle align-right h-h">
+    <div class="cell-8">
+      <div class="grid-y align-center align-middle">
+        <div class="cell shrink">
+          <h1 class="font-black font-moon-2-bold">LAUNCHING SOON!</h1>
+        </div>
+        <div class="cell shrink">
+          <div class="grid-x align-center-align-middle">
+            <div class="cell shrink">
+              <p class="font-light-brown font-kayak-reg count-font" id="kiri">
+              <p class="font-violet font-kayak-reg count-font" id="kanan">
+            </div>
+            <div class="cell shrink">
+              <p>Day(s) Left!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 </div>
 <!-- END OF LAUNCH -->
 
 <!-- SNEAK PEAK -->
 <div id="sneak-peak">
-  <div class="grid-y align-center full-h">
-    <div class="cell shrink">
-      <div class="grid-x align-center">
-        <div class="large-8 medium-10 small-12 cell text-center">
-          <h1 class="font-moon-2-bold font-white">SNEAK PEAK</h1>
-        </div>
-        <div class="large-8 medium-10 small-12 cell text-center">
-          <img id="gsneak" src="../img/orang-sneak.png" alt="">
-        </div>
+  <div class="grid-x align-center align-middle f-h">
+    <div class="cell small-8 text-center">
+        <h1 class="font-moon-2-bold font-white">SNEAK PEAK</h1>
+        <img id="gsneak" src="../img/orang-sneak.png" alt="">
       </div>
     </div>
   </div>
@@ -312,35 +309,13 @@
 <!-- END OF SNEAK PEAK -->
 
 <!-- SNEAK PEAK -->
-<!-- <div id="after-movie">
-  <div class="grid-y align-center full-h">
-    <div class="cell small-10">
-      <div class="grid-x align-center">
-        <div class="medium-8 small-10 cell text-center">
-          <div class="grid-y align-center">
-            <div class="cell">
-              <h1 class="font-moon-2-bold font-white">AFTER MOVIE <br> OPEN HOUSE FASILKOM UI 2017</h1>
-            </div>
-            <div class="cell responsive-embed widescreen border-embed">
-              <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 <div id="after-movie">
-  <div class="grid-y align-center full-h">
-    <div class="cell shrink">
-      <div class="grid-x align-center">
-        <div class="medium-8 small-10 cell text-center">
-          <h1 class="font-moon-2-bold font-white">AFTER MOVIE <br> OPEN HOUSE FASILKOM UI 2017</h1>
-        </div>
-        <div class="small-8 cell text-center">
-          <div class="cell responsive-embed widescreen border-embed">
-            <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
-          </div>
+  <div class="grid-x align-center align-middle f-h">
+    <div class="cell small-6">
+      <div class="medium-8 small-10 cell text-center">
+        <h1 class="font-moon-2-bold font-white">AFTER MOVIE <br> OPEN HOUSE FASILKOM UI 2017</h1>
+        <div class="cell responsive-embed widescreen border-embed">
+          <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -350,75 +325,36 @@
 
 <!-- REGISTER -->
 <div id="register">
-  <!-- <div class="grid-container pad-up-lit">
-    <div class="cell small-10 large-8 text-center end">
-      <h1 class="font-moon-2-bold">SEATS ARE LIMITED</h1>
-    </div>
-    <div class="cell small-10 large-8 text-center">
-      <p class="font-moon-2-bold mini-font">Click the button to join our <span class="font-light-brown">Space Oddesy</span></p>
-    </div>
-  </div>
-  <div class="grid-container">
-    <div class="cell small-8 large-6 text-center">
-      <a id="regis-button" class="font-kayak-reg mar-down-very-lit">Register Now!</a>
-      <p class="font-black font-kayak-reg">P.S. this event is FREE</p>
-    </div>
-  </div> -->
-    <div class="grid-y align-center full-h">
-      <div class="cell shrink">
-        <div class="grid-x align-center text-center">
-          <div class="cell small-10 large-6">
-            <h1 class="font-moon-2-bold">SEATS ARE LIMITED</h1>
-            <p class="font-moon-2-bold mini-font">Click the button to join our <span class="font-light-brown">Space Oddesy</span></p>
-          </div>
+  <div class="grid-x align-center align-middle">
+    <div class="cell auto">
+      <div class="grid-x align-center text-center">
+        <div class="cell small-10 large-6">
+          <h1 class="font-moon-2-bold">SEATS ARE LIMITED</h1>
+          <p class="font-moon-2-bold mini-font">Click the button to join our <span class="font-light-brown">Space Oddesy</span></p>
         </div>
-        <div class="grid-x align-center text-center">
-          <div class="cell shrink small-10 large-6">
-            <button id="regis-button" class="font-kayak-reg">Register Now!</button>
-            <p class="font-black font-kayak-reg">P.S. this event is FREE!</p>
-          </div>
+      </div>
+      <div class="grid-x align-center text-center">
+        <div class="cell shrink small-10 large-6">
+          <button id="regis-button" class="font-kayak-reg">Register Now!</button>
+          <p class="font-black font-kayak-reg">P.S. this event is FREE!</p>
         </div>
       </div>
     </div>
+  </div>
 </div>
 <!-- END OF REGISTER -->
 
 <!-- FOOTER -->
 <div id="footer" class="footer bg-navy">
-  <!-- <div class="grid-x align-spaced full-h">
-    <div class="cell small-8 medium-6">
-      <div class="grid-y align-center full-h">
-        <p class="nomar font-kayak-reg font-white mar-left-very-very-lit midlit-font footer-font">© Copyright, OH Fasilkom UI 2018</p>
-      </div>
+  <div class="grid-x align-center align-middle">
+    <div class="cell small-6">
+        <p class="nomar font-kayak-reg font-white midlit-font footer-font">© Copyright, OH Fasilkom UI 2018</p>
     </div>
-    <div class="cell small-8 medium-6">
-      <div class="grid-y align-center full-h">
-        <div class="grid-x justify-conten-middle align-right">
-          <img class="sosmed-ico" src="img/desktop/line.svg" alt="">
-          <img class="sosmed-ico" src="img/desktop/instagram.svg" alt="">
-          <img class="sosmed-ico" src="img/desktop/twitter.svg" alt="">
-          <img class="sosmed-ico" src="img/desktop/youtube.svg" alt="">
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="grid-y align-center full-h">
-    <div class="grid-x">
-      <div class="cell small-6">
-        <div class="grid-y align-center full-h">
-          <p class="nomar font-kayak-reg font-white mar-left-very-very-lit midlit-font footer-font">© Copyright, OH Fasilkom UI 2018</p>
-        </div>
-      </div>
-      <div class="cell small-6">
-        <div class="grid-y align-center full-h">
-          <div class="grid-x justify-conten-middle align-right">
-            <img class="sosmed-ico" src="img/desktop/line.svg" alt="">
-            <img class="sosmed-ico" src="img/desktop/instagram.svg" alt="">
-            <img class="sosmed-ico" src="img/desktop/twitter.svg" alt="">
-            <img class="sosmed-ico" src="img/desktop/youtube.svg" alt="">
-          </div>
-        </div>
-      </div>
+    <div class="cell small-6">
+      <img class="sosmed-ico" src="img/desktop/line.svg" alt="">
+      <img class="sosmed-ico" src="img/desktop/instagram.svg" alt="">
+      <img class="sosmed-ico" src="img/desktop/twitter.svg" alt="">
+      <img class="sosmed-ico" src="img/desktop/youtube.svg" alt="">
     </div>
   </div>
 </div>
@@ -430,15 +366,66 @@
   <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>
   <script src="js/app.js"></script>
-  <script src="swiper/dist/js/swiper.min.js"></script>
 	<script src="js/count.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
+
+  <!-- <script type="text/javascript">
+      // When the DOM is ready, run this function
+      $(document).ready(function() {
+        //Set the carousel options
+          $('#quotes').carousel({
+            pause: true,
+            interval: 4000,
+          });
+      });
+	(function ($) {
+		  $(document).ready(function(){
+
+			// hide .navbar first
+			$(".nav").hide();
+
+			// fade in .navbar
+			$(function () {
+				$(window).scroll(function () {
+		            // set distance user needs to scroll before we fadeIn navbar
+					if ($(this).scrollTop() > 650) {
+						$('.nav').fadeIn();
+					} else {
+						$('.nav').fadeOut();
+					}
+				});
+
+
+			});
+
+		});
+		  }(jQuery));
+    $(document).ready(function(){
+  		// Add scrollspy to <body>
+  		$('body').scrollspy({target: ".navbar", offset: 50});
+
+  		// Add smooth scrolling on all links inside the navbar
+  		$("#myNavbar a").on('click', function(event) {
+    	// Make sure this.hash has a value before overriding default behavior
+	    	if (this.hash !== "") {
+	      		// Prevent default anchor click behavior
+	      		event.preventDefault();
+
+	      		// Store hash
+	      		var hash = this.hash;
+
+	      		// Using jQuery's animate() method to add smooth page scroll
+	      		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      		$('html, body').animate({
+	        		scrollTop: $(hash).offset().top
+	    			}, 800, function(){
+
+	     				// Add hash (#) to URL when done scrolling (default click behavior)
+	        			window.location.hash = hash;
+	      		});
+	   		}  // End if
+  		});
+	});
+  </script> -->
   <script>
   jQuery(document).ready(function($) {
     var alterClass = function() {
