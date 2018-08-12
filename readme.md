@@ -1,5 +1,4 @@
-# OPEN HOUSE FASILKOM UNIVERSITAS INDONESIA
-
+# Open House Fasilkom UI 2018
 ![OH 2018](oh.png)
 
 ## Description
