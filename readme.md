@@ -8,11 +8,11 @@
 
 ##### Frameworks
 ##### 1. Foundation
-> - version 4.0.0, [link](https://foundation.zurb.com/ "The most advanced responsive front-end framework in the world.")
+> - version 6, [link](https://foundation.zurb.com/ "The most advanced responsive front-end framework in the world.")
 
 ##### Libraries
 ###### 1. Hover CSS
-> - version 5.0.8, [link](http://ianlunn.github.io/Hover/ "Hover CSS Website")
+> - version 2, [link](http://ianlunn.github.io/Hover/ "Hover CSS Website")
 
 ## Contributors
 ###### Full Stack Developer
