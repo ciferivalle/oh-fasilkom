@@ -218,6 +218,10 @@ body {
   width: 2.5em;
   margin-right: 2%;
 }
+.footer-font {
+  margin:0;
+}
+
 @media (max-width:500px) {
   .sosmed-ico {
     width: 2em;
@@ -225,5 +229,6 @@ body {
   }
   .footer-font {
     font-size: 0.8em;
+    margin:0;
   }
 }
