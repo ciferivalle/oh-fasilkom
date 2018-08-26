@@ -43,9 +43,35 @@
 <!-- FUN-FACT -->
 <div id="fun-fact">
   <div class="grid-x align-right align-middle f-h">
-    <div class="cell small-6 pad-right-lit">
+    <div class="cell small-5 pad-right-lit">
       <h1 class="font-violet font-moon-2-bold">FUN FACT!</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt soluta ea non perferendis culpa vero rem error modi aperiam.</p>
+      <div class="orbit" role="region" aria-label="They Said" data-orbit data-options="">
+        <div class="orbit-wrapper">
+          <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure font-black font-kayak-reg">
+                Satu-satunya gedung di UI yang bentuknya bundar hanya fasilkom lohh! Gedung fasilkom juga terletak di tengah-tengah UI alias menjadi pusat UI
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure font-black font-kayak-reg">
+                Hotspot di Fasilkom tuh cepet banget loh ( jelasin berapa ituannya )
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure font-black font-kayak-reg">
+                Kantin di Fasilkom juga murah-murah banget! Banyak dari mahasiswa fakultas lain datang ke Fasilkom hanya sekedar makan fasilkom karena makanannya terkenal enak dan murah!
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <!-- <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+        </nav> -->
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt soluta ea non perferendis culpa vero rem error modi aperiam.</p> -->
     </div>
   </div>
 </div>
@@ -70,12 +96,12 @@
 <!-- WELCOME TO FASILKOM UI -->
 <div  id="student-life" class="bg-brown">
   <div class="grid-x align-center align-middle f-h">
-    <div class="medium-6 small-8 cell text-center">
+    <div class="medium-6 small-10 cell text-center">
       <h1 class="font-moon-2-bold font-brown nomar">STUDENT LIFE</h1>
       <div class="responsive-embed widescreen border-embed">
         <iframe src="https://www.youtube.com/embed/YcTHIIj2KaY" frameborder="0" allowfullscreen></iframe>
-        <img id="gbundar" src="../img/desktop/fasilkom.svg" alt="">
       </div>
+      <p class="font-kayak-reg">Mau lihat keseruan menjadi siswa Fakultas Ilmu Komputer? Lihat video diatas yuk!</p>
     </div>
   </div>
 </div>
@@ -84,7 +110,7 @@
 <!-- WELCOME TO FASILKOM UI -->
 <div id="schedule" class="bg-navy">
   <div class="grid-x align-center align-middle m-h">
-    <div class="cell small-10 medium-8">
+    <div class="cell small-10 medium-8 pad-up pad-down">
       <div class="grid-x align-center align-middle">
         <div class="cell shrink text-center">
           <h1 class="font-moon-2-bold font-light-brown">OPEN HOUSE <br> FASILKOM UI 2018</h1>
@@ -92,7 +118,7 @@
         </div>
       </div>
     </div>
-    <div class="cell small-10 large-5">
+    <div class="cell small-10 large-5 pad-down">
       <div class="grid-x align-left align-middle">
          <div class="cell shrink">
               <img class="icon" src="img/icon/calendar.svg" alt="">
@@ -116,13 +142,20 @@
               <img class="icon" src="img/icon/location.svg" alt="">
          </div>
          <div class="cell shrink">
-              <span class="font-moon-bold font-white">FAKULTAS ILMU KOMPUTER UI, JAWA BARAT</span>
+              <span class="font-moon-bold font-white">FAKULTAS ILMU KOMPUTER UI</span>
          </div>
       </div>
     </div>
-    <div class="cell small-10 large-5">
+    <hr>
+    <div class="cell small-10 large-5 pad-down">
       <div class="grid-x align-left align-middle">
-        <p class="font-white font-kayak-reg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit doloremque voluptatibus id nam placeat libero vitae repellat enim. Facilis, cumque.</p>
+        <p class="font-white font-kayak-reg">Open House Fasilkom 2017 is an annual
+          event with a purpose to give publication for the Faculty of Computer
+          Science. Through this event, seniors in high school will be able to
+          know and get the idea of the university life in Fasilkom. Additionally,
+          Open House participants will also get new knowledge about information
+          technology work field, real product of information technology and
+          non-academic activities in Fasilkom UI.</p>
       </div>
     </div>
   </div>
@@ -233,7 +266,7 @@
         </div>
       </div>
       <div class="grid-x align-center text-center">
-        <div class="cell shrink small-10 large-6">
+        <div class="cell shrink small-10 large-6 mar-left-very-lit">
           <button id="regis-button" class="font-kayak-reg">Register Now!</button>
           <p class="font-black font-kayak-reg">P.S. this event is FREE!</p>
         </div>
@@ -245,11 +278,13 @@
 
 <!-- FOOTER -->
 <div id="footer" class="footer bg-navy">
-  <div class="grid-x align-center align-middle">
+  <div class="grid-x align-center align-middle f-h">
     <div class="cell small-6">
-        <p class="nomar font-kayak-reg font-white midlit-font footer-font">© Copyright, OH Fasilkom UI 2018</p>
+      <div class="grid-y align-center">
+        <p class="font-kayak-reg font-white  footer-font">© Copyright, OH Fasilkom UI 2018</p>
+      </div>
     </div>
-    <div class="cell small-6 align-self-right text-right">
+    <div class="cell small-6 text-right">
       <img class="sosmed-ico" src="img/icon/line.svg" alt="">
       <img class="sosmed-ico" src="img/icon/instagram.svg" alt="">
       <img class="sosmed-ico" src="img/icon/twitter.svg" alt="">
