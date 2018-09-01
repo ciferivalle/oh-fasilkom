@@ -74,6 +74,9 @@ body, h1 {
 .pad-down-lit {
     padding-bottom: 50px;
 }
+.pad-right-lit {
+    padding-right: 50px;
+}
 .pad-down-very-lit {
     padding-bottom: 20px;
 }
