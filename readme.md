@@ -17,6 +17,5 @@
 ## Contributors
 ###### Full Stack Developer
 > - Muhammad Fachry Nataprawira, see [linkedin](https://www.linkedin.com/in/nataprawiraf/ "see Fachry on LinkedIn") / [github](https://github.com/ciferivalle "see Fachry on Github")
-
 ###### UI/UX Designer
 > - Roshani Ayu Pranasti, see [linkedin](https://www.linkedin.com/in/roshani-ayu-pranasti/ "see Asti on LinkedIn")
